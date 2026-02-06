@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 
 def get_model() -> BaseChatModel:
     return ChatOpenAI(
-        temperature=0.1,
+        temperature=0,
         model_name="glm-4-plus",
         # 填写密钥
         openai_api_key="86c1c5671f15f3676cb11e4a75197ebc.oJB2pL19OHIN7xOf",

@@ -12,6 +12,12 @@ langchain = "^1.2.6"
 langchain-openai = "^1.1.7"
 langchain-community = "^0.4.1"
 memory = "^1.0.0"
+basemodel = "^20190604.1625"
+create-agent = "^0.0.3"
+langchain-experimental = "^0.4.1"
+chroma = "^0.2.0"
+langchain-tavily = "^0.2.17"
+textloader = "^0.0.9"
 
 
 [build-system]

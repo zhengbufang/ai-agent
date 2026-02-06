@@ -11,6 +11,7 @@ from model import get_model
 
 model = get_model()
 
+
 # 历史消息
 async def test_chat_message_model():
     message = ChatMessageHistory()
@@ -58,7 +59,7 @@ def conversation_chain():
     chain.invoke({"input": "你好，你的名字叫小智"})
     chain.invoke({"input": "你好，你叫什么名字？"})
 
-
+#{history} 保存上下文记忆变量
 def conversation_window_memory():
     template = """
         以下是人类与AI之间的友好对话描述。AI表现得很健谈，并提供了大量来自其上下文的

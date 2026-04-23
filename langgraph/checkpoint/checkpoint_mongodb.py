@@ -23,12 +23,12 @@ with MongoDBSaver.from_conn_string(DB_URI) as checkpointer:
         }
     }
 
-    for chunk in graph.astream(
-        {"messages": [{"role": "user", "content": "hi! I'm bob"}]},
-        config,
-        stream_mode="values"
-    ):
-        chunk["messages"][-1].pretty_print()
+    # for chunk in graph.stream(
+    #     {"messages": [{"role": "user", "content": "hi! I'm bob"}]},
+    #     config,
+    #     stream_mode="values"
+    # ):
+    #     chunk["messages"][-1].pretty_print()
 
     for chunk in graph.stream(
         {"messages": [{"role": "user", "content": "what's my name?"}]},

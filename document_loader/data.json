@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "技术文章",
+      "content": [
+        {
+          "id": 101,
+          "title": "JavaScript基础",
+          "content": "JavaScript是一种高级编程语言"
+        },
+        {
+          "id": 102,
+          "title": "CSS样式",
+          "content": "CSS用于网页样式设计"
+        },
+        {
+          "id": 103,
+          "title": "HTML结构",
+          "content": "HTML是网页的基础结构"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "学习资源",
+      "content_2": [
+        {
+          "id": 201,
+          "title": "在线教程",
+          "content": "提供丰富的编程学习资源"
+        },
+        {
+          "id": 202,
+          "title": "视频课程",
+          "content": "包含详细的视频教学"
+        },
+        {
+          "id": 203,
+          "title": "实践项目",
+          "content": "通过实际项目提升技能"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "开发工具",
+      "content_3": [
+        {
+          "id": 301,
+          "title": "代码编辑器",
+          "content": "VS Code、WebStorm等"
+        },
+        {
+          "id": 302,
+          "title": "版本控制",
+          "content": "Git、SVN等版本管理工具"
+        },
+        {
+          "id": 303,
+          "title": "调试工具",
+          "content": "浏览器开发者工具"
+        },
+        {
+          "id": 304,
+          "title": "构建工具",
+          "content": "Webpack、Vite等"
+        }
+      ]
+    }
+  ]
+}
